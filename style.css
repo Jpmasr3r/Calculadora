@@ -1,0 +1,176 @@
+#calculadora {
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 125px);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+button {
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#visor {
+    margin:0px;
+    background-color: #000;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    width: 245px;
+    height: 50px;
+    position: relative;
+    top: -2px;
+    left: 0px;
+}
+
+#numero {
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    top: -80%;
+    left: 0px;
+}
+
+
+
+body {
+    margin: 0px;
+    background-color: #000;
+}
+
+#botão1 {
+    top: 50px;
+    left: 0px;
+}
+#botão2 {
+    top: 50px;
+    left: 50px;
+}
+#botão3 {
+    top: 50px;
+    left: 100px;
+}
+
+#botão4 {
+    top: 100px;
+    left: 0px;
+}
+#botão5 {
+    top: 100px;
+    left: 50px;
+}
+#botão6 {
+    top: 100px;
+    left: 100px;
+}
+
+#botão7 {
+    top: 150px;
+    left: 0px;
+}
+#botão8 {
+    top: 150px;
+    left: 50px;
+}
+#botão9 {
+    top: 150px;
+    left: 100px;
+}
+
+#botão0 {
+    top: 200px;
+    left: 0px;
+    width: 150px;
+}
+
+#botãoSoma {
+    top: 50px;
+    left: 150px;
+}
+#botãoSubtração {
+    top: 100px;
+    left: 150px;
+}
+#botãoMultiplicação {
+    top: 150px;
+    left: 150px;
+}
+#botãoDivisão {
+    top: 200px;
+    left: 150px;
+}
+#botãoIgual {
+    top: 250px;
+    left: 0px;
+    width: 250px;
+}
+#botãoPonto{
+    top: 50px;
+    left: 200px;
+    height: 100px;
+}
+#botãoLimpar {
+    top: 150px;
+    left: 200px;
+    height: 100px;
+}
+
+#n1 {
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    left: 1%;
+    top: -255%;
+}
+
+#n2 {
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    left: 9%;
+    top: -309%;
+}
+
+#operação {
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    left: 5%;
+    top: -363%;
+}
+
+footer {
+    color: #fff;
+    position: absolute;
+    top: 90%;
+    left: calc(50% - 120px);
+    width: 240px;
+    height: auto;
+
+}
+
